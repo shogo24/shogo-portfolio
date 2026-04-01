@@ -140,8 +140,7 @@ A browser-based RPG where you navigate a grid map, fight enemies from the job ma
 ---
 
 ## 📄 License
-
-This project is private and proprietary.
+This project is open source under the [MIT License](LICENSE)
 
 ---
 
