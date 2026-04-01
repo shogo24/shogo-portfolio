@@ -139,7 +139,8 @@ A browser-based RPG where you navigate a grid map, fight enemies from the job ma
 
 ---
 
-📄 License
+## 📄 License
+
 This project is private and proprietary.
 
 ---
