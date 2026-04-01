@@ -1,4 +1,4 @@
-# Shogo Hardy — Portfolio
+# Portfolio - Shogo Hardy
 
 A modern, responsive portfolio website built with React and Vite, showcasing my projects, technical skills, and professional background.
 
@@ -6,7 +6,7 @@ A modern, responsive portfolio website built with React and Vite, showcasing my 
 
 ## 🌐 Overview
 
-This portfolio serves as a central hub for my software development work — featuring full-stack web apps, game development projects, and a built-in mini game. Designed with a dark teal glassmorphism aesthetic and fully responsive across all devices.
+This portfolio serves as a central hub for my software development work. Featuring full-stack web apps, game development projects, and a built-in mini game. Designed with a dark teal glassmorphism aesthetic and fully responsive across all devices.
 
 ---
 
@@ -161,7 +161,7 @@ Drop your files into `public/images/` and update the filenames to match.
 ## 👤 Author
 
 **Shogo Hardy**
-- GitHub: [@Shogo24](https://github.com/ShadeKnightly)
+- GitHub: [@Shogo24](https://github.com/shogo24)
 - Email: shogo.a.hardy@gmail.com
 
 ---
