@@ -147,6 +147,7 @@ This project is open source under the [MIT License](LICENSE)
 ## 👤 Author
 
 **Shogo Hardy**
+- Website: [shogohardy.site](https://shogohardy.site)
 - GitHub: [@Shogo24](https://github.com/shogo24)
 - Email: shogo.a.hardy@gmail.com
 
