@@ -4,48 +4,63 @@ import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
 const PHOTOS = {
-  heroBg: "public/images/fuji.JPG",
-  projectsBg: "public/images/hotel.jpg",
-  headshot: "public/images/profilePhotoTransparent.png",
+  heroBg:      "/images/fuji.JPG",
+  projectsBg:  "/images/hotel.jpg",
+  headshot:    "/images/profilePhotoTransparent.png",
   projects: {
-    RespAi:         "public/images/RespAiHome.png",
-    coursePilot:    "public/images/pilotCourses.png",
-    nest:           "public/images/nestHomepage.png",
+    RespAi:      "/images/RespAiHome.png",
+    coursePilot: "/images/pilotCourses.png",
+    nest:        "/images/nestHomepage.png",
   },
 };
 
 const NAV_LINKS = ["About", "Skills", "Projects", "Contact"];
 
 const SKILLS = [
-  { name: "React", tooltip: "A JavaScript library for building user interfaces" },
-  { name: "Next.js", tooltip: "A React framework for server-side rendering and static sites" },
-  { name: "JavaScript", tooltip: "Programming language for web development" },
-  { name: "TypeScript", tooltip: "JavaScript with type safety" },
-  { name: "HTML", tooltip: "Markup language for creating web pages" },
-  { name: "CSS", tooltip: "Stylesheet language for web design" },
+  // Languages
+  { name: "JavaScript",   tooltip: "Programming language for web development" },
+  { name: "TypeScript",   tooltip: "JavaScript with type safety" },
+  { name: "Python",       tooltip: "Used for instruction and scripting" },
+  { name: "C#",           tooltip: "Programming language used with .NET and Unity" },
+  { name: "HTML",         tooltip: "Markup language for creating web pages" },
+  { name: "CSS",          tooltip: "Stylesheet language for web design" },
+
+  // Frontend
+  { name: "React",        tooltip: "A JavaScript library for building user interfaces" },
+  { name: "Next.js",      tooltip: "A React framework for server-side rendering and static sites" },
+  { name: "React Router", tooltip: "Client-side routing for React applications" },
   { name: "Tailwind CSS", tooltip: "Utility-first CSS framework for rapid UI development" },
-  { name: "Node.js", tooltip: "JavaScript runtime for server-side development" },
-  { name: "Express.js", tooltip: "Web framework for Node.js" },
-  { name: ".NET", tooltip: "Microsoft framework for building applications" },
-  { name: "C#", tooltip: "Programming language used with .NET and Unity" },
-  { name: "SQL Server", tooltip: "Relational database management system by Microsoft" },
-  { name: "Supabase", tooltip: "Open-source Firebase alternative" },
-  { name: "MongoDB", tooltip: "NoSQL database for flexible data storage" },
-  { name: "Azure", tooltip: "Microsoft cloud computing platform" },
-  { name: "AWS S3", tooltip: "Cloud storage service from Amazon" },
-  { name: "Jenkins", tooltip: "Automation server for CI/CD pipelines" },
-  { name: "CI/CD", tooltip: "Continuous Integration and Deployment practices" },
-  { name: "Git", tooltip: "Version control system" },
-  { name: "GitHub", tooltip: "Platform for hosting Git repositories" },
-  { name: "REST APIs", tooltip: "Web APIs following REST principles" },
-  { name: "JSON", tooltip: "Data format for structured data exchange" },
-  { name: "Unity", tooltip: "Game engine for 2D/3D games" },
-  { name: "Unreal Engine", tooltip: "High-end game engine for 3D games" },
-  { name: "Figma", tooltip: "UI/UX design and prototyping tool" },
+  { name: "Figma",        tooltip: "UI/UX design and prototyping tool" },
   { name: "UI/UX Design", tooltip: "Designing user interfaces and experiences" },
-  { name: "Responsive Design", tooltip: "Designing layouts for multiple screen sizes" },
-  { name: "Form Validation", tooltip: "Ensuring correct input in forms" },
-  { name: "Authentication", tooltip: "Verifying user identity" },
+
+  // Backend
+  { name: "Node.js",      tooltip: "JavaScript runtime for server-side development" },
+  { name: "Express.js",   tooltip: "Web framework for Node.js" },
+  { name: ".NET",         tooltip: "Microsoft framework for building applications" },
+  { name: "REST APIs",    tooltip: "Web APIs following REST principles" },
+  { name: "Authentication", tooltip: "Verifying user identity and managing sessions" },
+
+  // Databases
+  { name: "SQL Server",   tooltip: "Relational database management system by Microsoft" },
+  { name: "Supabase",     tooltip: "Open-source Firebase alternative with Postgres" },
+  { name: "MongoDB",      tooltip: "NoSQL database for flexible data storage" },
+
+  // Cloud & DevOps
+  { name: "Azure",        tooltip: "Microsoft cloud computing platform" },
+  { name: "AWS S3",       tooltip: "Cloud storage service from Amazon" },
+  { name: "Jenkins",      tooltip: "Automation server for CI/CD pipelines" },
+  { name: "CI/CD",        tooltip: "Continuous Integration and Deployment practices" },
+
+  // Tools
+  { name: "Git",          tooltip: "Version control system" },
+  { name: "GitHub",       tooltip: "Platform for hosting Git repositories" },
+  { name: "Vite",         tooltip: "Fast build tool and dev server for modern web projects" },
+  { name: "Postman",      tooltip: "API testing and development tool" },
+
+  // Game Dev
+  { name: "Unity",        tooltip: "Game engine for 2D/3D games using C#" },
+  { name: "Unreal Engine",tooltip: "High-end game engine for 3D games" },
+  { name: "Blueprints",   tooltip: "Unreal Engine visual scripting system" },
 ];
 
 const PROJECTS = [
@@ -267,20 +282,24 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="relative py-28"
+      className="relative py-28 overflow-hidden"
       style={{
         backgroundImage: `url(${PHOTOS.projectsBg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      {/* Overlay so text is readable */}
-      <div className="absolute inset-0 bg-black/60" />
-      
-      <div className="relative max-w-6xl mx-auto px-6">
+      {/* Overlay — matches other pages */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[#0b1f1e]/90 via-[#0f2e2a]/80 to-teal-900/70" />
+
+      {/* Orbs — matches other pages */}
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-teal-400/10 blur-3xl pointer-events-none" />
+      <div className="absolute bottom-1/4 right-1/4 w-64 h-64 rounded-full bg-emerald-400/10 blur-3xl pointer-events-none" />
+
+      <div className="relative z-10 max-w-6xl mx-auto px-6">
         <SectionLabel>Projects</SectionLabel>
         <p className="text-white/50 mt-4 mb-12 max-w-xl">
-          A selection of things I’ve built - check out the Projects page for more.
+          A selection of things I've built — check out the Projects page for more.
         </p>
         <div className="flex flex-col gap-6">
           {PROJECTS.map((p) => <ProjectCard key={p.key} project={p} />)}
@@ -307,14 +326,14 @@ function Contact() {
             <ContactRow
               icon="mdi:linkedin"
               label="LinkedIn"
-              value="linkedin.com/in/shogo"
-              href="https://linkedin.com"
+              value="shogo-hardy"
+              href="https://www.linkedin.com/in/shogo-hardy/"
             />
             <ContactRow
               icon="mdi:github"
               label="GitHub"
-              value="github.com/shogo"
-              href="https://github.com"
+              value="shogo24"
+              href="https://github.com/shogo24"
             />
           </div>
           <div className="rounded-2xl bg-teal-900/20 border border-teal-700/30 backdrop-blur-sm p-8 flex flex-col justify-center">
