@@ -139,22 +139,8 @@ A browser-based RPG where you navigate a grid map, fight enemies from the job ma
 
 ---
 
-## 🔧 Adding Your Photos
-
-Open `src/Portfolio.jsx` and update the `PHOTOS` object at the top:
-```js
-const PHOTOS = {
-  heroBg:   "/images/your-hero.jpg",
-  headshot: "/images/your-headshot.jpg",
-  projects: {
-    debuggingDucks: "/images/duck-logo.png",
-    coursePilot:    "/images/coursepilot.png",
-    nest:           "/images/nest.png",
-  },
-};
-```
-
-Drop your files into `public/images/` and update the filenames to match.
+📄 License
+This project is private and proprietary.
 
 ---
 
