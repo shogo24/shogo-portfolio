@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Icon } from "@iconify/react";
 
-const BG_IMAGE = "/images/river.jpg";
+const BG_IMAGE = "/images/river.webp";
 
 const PROJECTS = [
   {
@@ -20,7 +20,7 @@ const PROJECTS = [
     github: "https://github.com/dondonherrera02/Fire-Department-Lead-Generation-CRM-System",
     live: null,
     video: null,
-    images: ["/images/RespAiHome.png"],
+    images: ["/images/RespAiHome.webp"],
     captions: ["Homepage"],
   },
   {
@@ -40,7 +40,7 @@ const PROJECTS = [
     github: "https://github.com/ShadeKnightly/CoursePilot",
     live: null,
     video: "/videos/CoursePilot.mp4",
-    images: ["/images/pilotCourses.png", "/images/pilotPreview.png", "/images/pilotFigma.png"],
+    images: ["/images/pilotCourses.webp", "/images/pilotPreview.webp", "/images/pilotFigma.webp"],
     captions: ["Demo", "Courses Page", "Preview Page", "Figma Design"],
   },
   {
@@ -60,7 +60,7 @@ const PROJECTS = [
     github: "https://github.com/ShadeKnightly/Day-trading-app",
     live: null,
     video: "/videos/NestTradingApp.mp4",
-    images: ["/images/nestHomepage.png", "/images/nestWatchlist.png", "/images/nestStockview.png", "/images/nestFigma.png"],
+    images: ["/images/nestHomepage.webp", "/images/nestWatchlist.webp", "/images/nestStockview.webp", "/images/nestFigma.webp"],
     captions: ["Demo", "Homepage", "Watchlist", "Stock View", "Figma Design"],
   },
   {
@@ -80,7 +80,7 @@ const PROJECTS = [
     github: "https://github.com/shogo24/Debugging-Ducks",
     live: null,
     video: null,
-    images: ["/images/ddHome.png", "/images/ddProjects.png", "/images/ddCalendar.png", "/images/ddContact.png", "/images/ddFigma.png"],
+    images: ["/images/ddHome.webp", "/images/ddProjects.webp", "/images/ddCalendar.webp", "/images/ddContact.webp", "/images/ddFigma.webp"],
     captions: ["Homepage", "Projects", "Calendar", "Contact", "Figma Design"],
   },
 ];

@@ -4,13 +4,13 @@ import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
 const PHOTOS = {
-  heroBg:      "/images/fuji.JPG",
-  projectsBg:  "/images/hotel.jpg",
-  headshot:    "/images/profilePhotoTransparent.png",
+  heroBg:      "/images/fuji.webp",
+  projectsBg:  "/images/hotel.webp",
+  headshot:    "/images/profilePhotoTransparent.webp",
   projects: {
-    RespAi:      "/images/RespAiHome.png",
-    coursePilot: "/images/pilotCourses.png",
-    nest:        "/images/nestHomepage.png",
+    RespAi:      "/images/RespAiHome.webp",
+    coursePilot: "/images/pilotCourses.webp",
+    nest:        "/images/nestHomepage.webp",
   },
 };
 

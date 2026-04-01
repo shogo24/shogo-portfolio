@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Icon } from "@iconify/react";
 
-const BG_IMAGE = "/images/fakeTree.jpg";
+const BG_IMAGE = "/images/fakeTree.webp";
 
 const PROJECTS = [
   {
@@ -39,7 +39,7 @@ const PROJECTS = [
     github: null,
     live: null,
     video: null,
-    images: ["/images/harrowingHouse.png", "/images/harrowingFarm.png", "/images/harrowingGameover.png"],
+    images: ["/images/harrowingHouse.webp", "/images/harrowingFarm.webp", "/images/harrowingGameover.webp"],
     captions: ["House", "Farm", "Game Over"],
   },
 ];
