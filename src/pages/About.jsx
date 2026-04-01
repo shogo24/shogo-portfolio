@@ -53,7 +53,7 @@ export default function About() {
             digital experiences that are as functional as they are engaging.
           </p>
           <p className="text-white/70 leading-relaxed mb-6">
-            My journey in tech has always been about more than just writing code — it's about fostering a community
+            My journey in tech has always been about more than just writing code. It's about fostering a community
             of builders. At Bow Valley College, I founded{" "}
             <span className="text-teal-300 font-medium">Debugging Ducks</span>, a student coding club designed to
             bridge the gap between classroom theory and real-world project execution. Leading this initiative
@@ -62,7 +62,7 @@ export default function About() {
           <p className="text-white/70 leading-relaxed mb-8">
             Beyond development, I've spent time as a <span className="text-teal-300 font-medium">Coding Instructor</span>,
             translating complex logic into approachable concepts for young learners. This experience didn't just sharpen
-            my coding skills — it taught me how to communicate technical ideas clearly to any audience.
+            my coding skills, it taught me how to communicate technical ideas clearly to any audience.
           </p>
 
           {/* Gallery */}
