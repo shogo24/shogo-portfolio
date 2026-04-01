@@ -20,7 +20,7 @@ const PROJECTS = [
     github: "https://github.com/dondonherrera02/Fire-Department-Lead-Generation-CRM-System",
     live: null,
     video: null,
-    images: ["public/images/RespAiHome.png"],
+    images: ["/images/RespAiHome.png"],
     captions: ["Homepage"],
   },
   {
@@ -80,7 +80,7 @@ const PROJECTS = [
     github: "https://github.com/shogo24/Debugging-Ducks",
     live: null,
     video: null,
-    images: ["public/images/ddHome.png", "public/images/ddProjects.png", "public/images/ddCalendar.png", "public/images/ddContact.png", "public/images/ddFigma.png"],
+    images: ["/images/ddHome.png", "/images/ddProjects.png", "/images/ddCalendar.png", "/images/ddContact.png", "/images/ddFigma.png"],
     captions: ["Homepage", "Projects", "Calendar", "Contact", "Figma Design"],
   },
 ];
