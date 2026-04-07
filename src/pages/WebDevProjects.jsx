@@ -79,9 +79,9 @@ const PROJECTS = [
     ],
     github: "https://github.com/shogo24/Debugging-Ducks",
     live: "https://debugging-ducks.vercel.app/",
-    video: null,
+    video: "/videos/DebuggingDucksDemo.mp4",
     images: ["/images/ddHome.webp", "/images/ddProjects.webp", "/images/ddCalendar.webp", "/images/ddContact.webp", "/images/ddFigma.webp"],
-    captions: ["Homepage", "Projects", "Calendar", "Contact", "Figma Design"],
+    captions: ["Demo", "Homepage", "Projects", "Calendar", "Contact", "Figma Design"],
   },
 ];
 
