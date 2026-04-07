@@ -24,7 +24,6 @@ export default function Resume() {
               <h1 className="font-['Playfair_Display'] text-5xl font-bold text-white mb-1">
                 My <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-emerald-300">Resume</span>
               </h1>
-              <p className="text-white/40 text-sm font-mono">Shogo Hardy</p>
             </div>
             <a
               href={resumePath}
