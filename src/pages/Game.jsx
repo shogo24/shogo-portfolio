@@ -184,7 +184,7 @@ const INITIAL_STATE = () => {
 
 // ─── Component ───────────────────────────────────────────────────────────────
 export default function GamePage() {
-  const BG_IMAGE = "/images/star.webp";
+  const BG_IMAGE = "/images/compressed/star.webp";
   const gameGridRef = useRef(null);
 
   const [state, setState] = useState(INITIAL_STATE);

@@ -1,6 +1,6 @@
 export default function Resume() {
   const resumePath = "/images/resume.pdf";
-  const BG_IMAGE = "/images/trees.webp";
+  const BG_IMAGE = "/images/compressed/trees.webp";
 
   return (
     <div

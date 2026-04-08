@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 
-const BG_IMAGE = "/images/flower.webp";
+const BG_IMAGE = "/images/compressed/flower.webp";
 
 const GALLERY = [
-  { src: "/images/debuggingDucks.webp", caption: "Debugging Ducks club showcase" },
-  { src: "/images/teaching.webp",       caption: "Python instruction session" },
-  { src: "/images/PlaceholderImage.webp",     caption: "Placeholder Image" },
+  { src: "/images/compressed/debuggingDucks.webp", caption: "Debugging Ducks club showcase" },
+  { src: "/images/compressed/teaching.webp",       caption: "Python instruction session" },
+  { src: "/images/compressed/PlaceholderImage.webp",     caption: "Placeholder Image" },
 ];
 
 const AUTO_ADVANCE_MS = 6000;

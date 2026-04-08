@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Icon } from "@iconify/react";
 
-const BG_IMAGE = "/images/river.webp";
+const BG_IMAGE = "/images/compressed/river.webp";
 
 const PROJECTS = [
   {
@@ -19,9 +19,9 @@ const PROJECTS = [
     ],
     github: "https://github.com/dondonherrera02/Fire-Department-Lead-Generation-CRM-System",
     live: null,
-    video: null,
-    images: ["/images/RespAiHome.webp"],
-    captions: ["Homepage"],
+    video: "/videos/compressed/RespAiDemo.mp4",
+    images: ["/images/compressed/RespAiHome.webp", "/images/compressed/RespAiDashboard.webp", "/images/compressed/RespAiDepartments.webp", "/images/compressed/RespAiUserManagement.webp", "/images/compressed/RespAiSettings.webp"],
+    captions: ["Demo", "Homepage", "Dashboard", "Department View", "User Management", "Settings"],
   },
   {
     key: "coursepilot",
@@ -39,8 +39,8 @@ const PROJECTS = [
     ],
     github: "https://github.com/ShadeKnightly/CoursePilot",
     live: null,
-    video: "/videos/CoursePilot.mp4",
-    images: ["/images/pilotCourses.webp", "/images/pilotPreview.webp", "/images/pilotFigma.webp"],
+    video: "/videos/compressed/CoursePilot.mp4",
+    images: ["/images/compressed/pilotCourses.webp", "/images/compressed/pilotPreview.webp", "/images/compressed/pilotFigma.webp"],
     captions: ["Demo", "Courses Page", "Preview Page", "Figma Design"],
   },
   {
@@ -59,8 +59,8 @@ const PROJECTS = [
     ],
     github: "https://github.com/ShadeKnightly/Day-trading-app",
     live: null,
-    video: "/videos/NestTradingApp.mp4",
-    images: ["/images/nestHomepage.webp", "/images/nestWatchlist.webp", "/images/nestStockview.webp", "/images/nestFigma.webp"],
+    video: "/videos/compressed/NestTradingApp.mp4",
+    images: ["/images/compressed/nestHomepage.webp", "/images/compressed/nestWatchlist.webp", "/images/compressed/nestStockview.webp", "/images/compressed/nestFigma.webp"],
     captions: ["Demo", "Homepage", "Watchlist", "Stock View", "Figma Design"],
   },
   {
@@ -79,8 +79,8 @@ const PROJECTS = [
     ],
     github: "https://github.com/shogo24/Debugging-Ducks",
     live: "https://debugging-ducks.vercel.app/",
-    video: "/videos/DebuggingDucksDemo.mp4",
-    images: ["/images/ddHome.webp", "/images/ddProjects.webp", "/images/ddCalendar.webp", "/images/ddContact.webp", "/images/ddFigma.webp"],
+    video: "/videos/compressed/DebuggingDucksDemo.mp4",
+    images: ["/images/compressed/ddHome.webp", "/images/compressed/ddProjects.webp", "/images/compressed/ddCalendar.webp", "/images/compressed/ddContact.webp", "/images/compressed/ddFigma.webp"],
     captions: ["Demo", "Homepage", "Projects", "Calendar", "Contact", "Figma Design"],
   },
 ];

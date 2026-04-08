@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Icon } from "@iconify/react";
 
-const BG_IMAGE = "/images/fakeTree.webp";
+const BG_IMAGE = "/images/compressed/fakeTree.webp";
 
 const PROJECTS = [
   {
@@ -19,7 +19,7 @@ const PROJECTS = [
     ],
     github: "https://github.com/shogo24/CodeType",
     live: null,
-    video: "/videos/CodeType.mp4",
+    video: "/videos/compressed/CodeType.mp4",
     images: [],
     captions: ["Demo"],
   },
@@ -39,7 +39,7 @@ const PROJECTS = [
     github: null,
     live: null,
     video: null,
-    images: ["/images/harrowingHouse.webp", "/images/harrowingFarm.webp", "/images/harrowingGameover.webp"],
+    images: ["/images/compressed/harrowingHouse.webp", "/images/compressed/harrowingFarm.webp", "/images/compressed/harrowingGameover.webp"],
     captions: ["House", "Farm", "Game Over"],
   },
 ];
