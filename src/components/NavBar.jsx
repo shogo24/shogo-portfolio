@@ -2,7 +2,12 @@ import { useState, useEffect } from "react";
 import { SideNavTrigger } from "./SideNav.jsx";
 import { useLocation, Link } from "react-router-dom";
 
-const NAV_LINKS = ["About", "Skills", "Projects", "Contact"];
+const NAV_LINKS = [
+  { label: "About", href: "#home" },
+  { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
+  { label: "Contact", href: "#contact" },
+];
 
 export default function NavBar() {
   const [scrolled, setScrolled] = useState(false);
@@ -23,16 +28,17 @@ export default function NavBar() {
         <Link to="/" className="font-['Playfair_Display'] text-2xl font-bold tracking-tight text-teal-300 hover:text-teal-200 transition-colors">
             SH<span className="text-white">.</span>
         </Link>
+
         {/* Only show scroll links on home page */}
         {isHome && (
           <ul className="hidden md:flex gap-8">
             {NAV_LINKS.map((l) => (
-              <li key={l}>
+              <li key={l.label}>
                 <a
-                  href={`#${l.toLowerCase()}`}
+                  href={l.href}
                   className="text-sm tracking-widest uppercase text-white/60 hover:text-white transition-colors duration-200"
                 >
-                  {l}
+                  {l.label}
                 </a>
               </li>
             ))}
@@ -46,7 +52,7 @@ export default function NavBar() {
             {location.pathname === "/resume"  && "Resume"}
             {location.pathname === "/webdev"  && "Web Dev Projects"}
             {location.pathname === "/gamedev" && "Game Dev Projects"}
-            {location.pathname === "/game" && "Game Job Hunt"}
+            {location.pathname === "/game"    && "Game Job Hunt"}
             {location.pathname === "/contact" && "Contact"}
           </span>
         )}

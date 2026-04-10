@@ -14,8 +14,6 @@ const PHOTOS = {
   },
 };
 
-const NAV_LINKS = ["About", "Skills", "Projects", "Contact"];
-
 const SKILLS = [
   // Languages
   { name: "JavaScript",   tooltip: "Programming language for web development" },
@@ -167,7 +165,7 @@ function TypingText() {
 function Hero() {
   return (
     <section
-      id="about"
+      id="home"
       className="relative min-h-screen flex items-center overflow-hidden"
       style={{ backgroundImage: `url(${PHOTOS.heroBg})`, backgroundSize: "cover", backgroundPosition: "center" }}
     >
