@@ -5,7 +5,8 @@ const BG_IMAGE = "/images/compressed/flower.webp";
 const GALLERY = [
   { src: "/images/compressed/debuggingDucks.webp", caption: "Debugging Ducks club showcase" },
   { src: "/images/compressed/teaching.webp",       caption: "Python instruction session" },
-  { src: "/images/compressed/PlaceholderImage.webp",     caption: "Placeholder Image" },
+  { src: "/images/compressed/CapstonePresentation.webp",   caption: "Capstone presentation" },
+  { src: "/images/compressed/CapstoneShowcase.webp",   caption: "Capstone showcase" },
 ];
 
 const AUTO_ADVANCE_MS = 6000;
