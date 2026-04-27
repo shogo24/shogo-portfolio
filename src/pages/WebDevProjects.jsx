@@ -83,6 +83,26 @@ const PROJECTS = [
     images: ["/images/compressed/ddHome.webp", "/images/compressed/ddProjects.webp", "/images/compressed/ddCalendar.webp", "/images/compressed/ddContact.webp", "/images/compressed/ddFigma.webp"],
     captions: ["Demo", "Homepage", "Projects", "Calendar", "Contact", "Figma Design"],
   },
+  {
+  key: "mtg-collection",
+  title: "MTG Collection",
+  subtitle: "Magic: The Gathering Collection Manager",
+  tags: ["Next.js", "TypeScript", "SQLite", "Scryfall", "Tailwind CSS"],
+  color: "#5D8A6E",
+  desc: "A local web app for managing a Magic: The Gathering collection with Scryfall-powered card search, printing lookup, quantity tracking, and decklist import, backed by SQLite and a clean Next.js UI.",
+  bullets: [
+    "Built a Next.js and TypeScript web app for browsing and managing a local MTG collection",
+    "Integrated the Scryfall API for card search, printings, and image data",
+    "Stored collection and deck data locally in SQLite for fast, offline-friendly access",
+    "Supported bulk decklist imports with quantities and set-aware parsing",
+    "Added collection filtering, card detail modals, and missing-card deck comparisons",
+  ],
+  github: "https://github.com/shogo24/Magic-The-Gathering-Collection",
+  live: null,
+  video: "/videos/compressed/mtgCollectionDemo.mp4",
+  images: ["/images/compressed/mtgCollectionHome.webp", "/images/compressed/mtgCollectionCardSearch.webp", "/images/compressed/mtgCollectionSaved.webp"],
+  captions: [""],
+}
 ];
 
 function ProjectImageSlider({ images, video, title, captions }) {
