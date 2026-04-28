@@ -79,9 +79,9 @@ const PROJECTS = [
     ],
     github: "https://github.com/shogo24/Debugging-Ducks",
     live: "https://debugging-ducks.vercel.app/",
-    video: "/videos/compressed/DebuggingDucksDemo.mp4",
-    images: ["/images/compressed/ddHome.webp", "/images/compressed/ddProjects.webp", "/images/compressed/ddCalendar.webp", "/images/compressed/ddContact.webp", "/images/compressed/ddFigma.webp"],
-    captions: ["Demo", "Homepage", "Projects", "Calendar", "Contact", "Figma Design"],
+    video: "/videos/compressed/DDuckDemo.mp4",
+    images: ["/images/compressed/DDuckHome.webp", "/images/compressed/DDuckProjects.webp", "/images/compressed/DDuckCalendar.webp", "/images/compressed/DDuckContact.webp", "/images/compressed/DDuckFigma.webp"],
+    captions: ["Demo", "Homepage", "Projects", "Calendar", "Contact", "Initial Figma Design"],
   },
   {
   key: "mtg-collection",
