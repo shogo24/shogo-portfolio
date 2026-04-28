@@ -18,7 +18,7 @@ const SKILLS = [
   // Languages
   { name: "JavaScript",   tooltip: "Programming language for web development" },
   { name: "TypeScript",   tooltip: "JavaScript with type safety" },
-  { name: "Python",       tooltip: "Used for instruction and scripting" },
+  { name: "Python",       tooltip: "Used for scripting and data processing" },
   { name: "C#",           tooltip: "Programming language used with .NET and Unity" },
   { name: "HTML",         tooltip: "Markup language for creating web pages" },
   { name: "CSS",          tooltip: "Stylesheet language for web design" },
@@ -27,6 +27,7 @@ const SKILLS = [
   { name: "React",        tooltip: "A JavaScript library for building user interfaces" },
   { name: "Next.js",      tooltip: "A React framework for server-side rendering and static sites" },
   { name: "React Router", tooltip: "Client-side routing for React applications" },
+  { name: "Angular",      tooltip: "Framework for building dynamic web applications" },
   { name: "Tailwind CSS", tooltip: "Utility-first CSS framework for rapid UI development" },
   { name: "Figma",        tooltip: "UI/UX design and prototyping tool" },
   { name: "UI/UX Design", tooltip: "Designing user interfaces and experiences" },
@@ -35,11 +36,13 @@ const SKILLS = [
   { name: "Node.js",      tooltip: "JavaScript runtime for server-side development" },
   { name: "Express.js",   tooltip: "Web framework for Node.js" },
   { name: ".NET",         tooltip: "Microsoft framework for building applications" },
+  { name: ".NET Framework", tooltip: "Traditional .NET framework for desktop and web apps" },
   { name: "REST APIs",    tooltip: "Web APIs following REST principles" },
   { name: "Authentication", tooltip: "Verifying user identity and managing sessions" },
 
   // Databases
   { name: "SQL Server",   tooltip: "Relational database management system by Microsoft" },
+  { name: "SQLite",       tooltip: "Lightweight embedded SQL database" },
   { name: "Supabase",     tooltip: "Open-source Firebase alternative with Postgres" },
   { name: "MongoDB",      tooltip: "NoSQL database for flexible data storage" },
 
@@ -59,6 +62,7 @@ const SKILLS = [
   { name: "Unity",        tooltip: "Game engine for 2D/3D games using C#" },
   { name: "Unreal Engine",tooltip: "High-end game engine for 3D games" },
   { name: "Blueprints",   tooltip: "Unreal Engine visual scripting system" },
+  { name: "Game Design",  tooltip: "Creating game mechanics and user experience" },
 ];
 
 const PROJECTS = [

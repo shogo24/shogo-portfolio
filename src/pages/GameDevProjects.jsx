@@ -40,7 +40,7 @@ const PROJECTS = [
     live: null,
     video: "/videos/compressed/HarrowingDemo.mp4",
     images: ["/images/compressed/harrowingHouse.webp", "/images/compressed/harrowingFarm.webp", "/images/compressed/harrowingGameover.webp"],
-    captions: ["House", "Farm", "Game Over"],
+    captions: ["Demo", "House", "Farm", "Game Over"],
   },
 ];
 
@@ -96,15 +96,6 @@ function ProjectImageSlider({ images, video, title, captions }) {
           )}
         </div>
       ))}
-
-      {item.type === "video" && (
-        <div className="absolute top-2 left-2 z-10 flex items-center gap-1 px-2 py-0.5 rounded-full bg-black/60 text-white/70 text-[10px] font-mono border border-white/10">
-          <svg className="w-2.5 h-2.5" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M8 5v14l11-7z" />
-          </svg>
-          Demo
-        </div>
-      )}
 
       <button
         onClick={(e) => { e.stopPropagation(); setCurrent((c) => (c === 0 ? allMedia.length - 1 : c - 1)); }}
