@@ -38,7 +38,7 @@ const PROJECTS = [
     ],
     github: null,
     live: null,
-    video: null,
+    video: "/videos/compressed/HarrowingDemo.mp4",
     images: ["/images/compressed/harrowingHouse.webp", "/images/compressed/harrowingFarm.webp", "/images/compressed/harrowingGameover.webp"],
     captions: ["House", "Farm", "Game Over"],
   },

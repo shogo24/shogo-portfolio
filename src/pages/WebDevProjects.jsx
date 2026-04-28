@@ -101,7 +101,7 @@ const PROJECTS = [
   live: null,
   video: "/videos/compressed/mtgCollectionDemo.mp4",
   images: ["/images/compressed/mtgCollectionHome.webp", "/images/compressed/mtgCollectionCardSearch.webp", "/images/compressed/mtgCollectionSaved.webp"],
-  captions: [""],
+  captions: ["Demo", "Homepage", "Card Search", "Saved Collection"],
 }
 ];
 
