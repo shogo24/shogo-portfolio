@@ -5,7 +5,7 @@ import { SideNavContext, useSideNav } from "./SideNavContext";
 
 const LINKS = [
   { label: "Home",              path: "/" },
-  { label: "About",             path: "/about" },
+  { label: "More About Me",     path: "/about" },
   { label: "Resume",            path: "/resume" },
   { label: "Web Dev Projects",  path: "/webdev" },
   { label: "Game Dev Projects", path: "/gamedev" },
