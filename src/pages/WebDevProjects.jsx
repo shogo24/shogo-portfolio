@@ -23,6 +23,68 @@ const PROJECTS = [
     images: ["/images/compressed/RespAiHome.webp", "/images/compressed/RespAiDashboard.webp", "/images/compressed/RespAiDepartments.webp", "/images/compressed/RespAiUserManagement.webp", "/images/compressed/RespAiSettings.webp"],
     captions: ["Demo", "Homepage", "Dashboard", "Department View", "User Management", "Settings"],
   },
+    {
+    key: "kaika",
+    title: "Kaika",
+    subtitle: "Interactive Knowledge Graph POC",
+    tags: ["React", "React Flow", "Zustand", "Dagre"],
+    color: "#2D7D9A",
+    desc: "A single-page interactive knowledge-graph proof of concept that visualizes information as a living network of interconnected nodes representing people, ideas, decisions, and memories.",
+    bullets: [
+      "Built a React-based graph interface using React Flow for dynamic node and edge rendering",
+      "Implemented state management with Zustand for fast, lightweight local interactions",
+      "Used Dagre for automatic graph layout with optional free-drag mode for manual structuring",
+      "Enabled creation of nodes and labelled edges with in-app search by title and content",
+      "Designed pre-built scenarios to demonstrate core interactions without requiring a backend or persistence",
+    ],
+    github: "https://github.com/BrayLaf/Kaika-app",
+    live: "https://kaika-tech-demo.vercel.app/",
+    video: "/videos/compressed/KaikaDemo.mp4",
+    images: ["/images/compressed/KaikaLandingPage.webp", "/images/compressed/KaikaMainPage.webp", "/images/compressed/KaikaFullContent.webp", "/images/compressed/KaikaAddNode.webp", "/images/compressed/KaikaZoomedOutView.webp"],
+    captions: ["Demo", "Landing Page", "Graph Interface", "Full Content View", "Add Node Panel", "Zoomed Out View"],
+  },
+  {
+    key: "card-pricy",
+    title: "Card Pricy",
+    subtitle: "Magic: The Gathering Card Price Lookup Tool",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Zustand", "Scryfall API"],
+    color: "#5D8A6E",
+    desc: "A modern Magic: The Gathering card pricing app built to make searching, comparing, and organizing cards fast and simple. Card Pricy uses the Scryfall API to deliver live card data, autocomplete, bulk lookup, and exact printing searches, with a clean list workflow for tracking cards by condition, finish, and custom pricing.",
+    bullets: [
+      "Built a responsive card pricing platform with live search and autocomplete",
+      "Integrated Scryfall-powered search, bulk lookup, and exact printing queries",
+      "Designed a list system for tracking cards with condition, finish, and custom prices",
+      "Added currency switching for CAD, USD, and EUR",
+      "Kept the interface fast and accessible with a clean, mobile-friendly layout",
+      "Structured the app with a component-based Next.js architecture for maintainability",
+    ],
+    github: "https://github.com/shogo24/Magic-The-Gathering-Collection",
+    live: "https://card-pricy.vercel.app/",
+    video: "/videos/compressed/CardPricyDemo.mp4",
+    images: ["/images/compressed/CardPricyHomePage.webp", "/images/compressed/CardPricySearch.webp", "/images/compressed/CardPricyCardDetails.webp", "/images/compressed/CardPricyList.webp", "/images/compressed/CardPricyBulkSearch.webp", "/images/compressed/CardPricyBulkSearchPrintOption.webp"],
+    captions: ["Demo", "Homepage", "Search", "Card Details", "List", "Bulk Lookup", "Bulk Lookup Card Print View"],
+  },
+    {
+    key: "debuggingDucks",
+    title: "Debugging Ducks",
+    subtitle: "Student Coding Club - Events, Projects & Resources",
+    tags: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Vite"],
+    color: "#4BA89A",
+    desc: "A full-stack club platform for Debugging Ducks, a student coding community I founded. Built to centralize events, showcase projects, and support student learning through real-world development practices. The project evolved from static pages into a modern React + Vite application with a strong focus on accessibility, performance, and scalability.",
+    bullets: [
+      "Founded and led a student coding club focused on hands-on, project-based learning",
+      "Architected and rebuilt the website from static HTML/CSS into a React + Vite application",
+      "Developed core features including event listings, project showcases, and resource hubs",
+      "Applied accessibility best practices (WCAG) and mobile-first responsive design",
+      "Improved performance and maintainability through modern tooling and component-based architecture",
+      "Led outreach, sponsorships, and mentoring to grow and support the club community"
+    ],
+    github: "https://github.com/shogo24/Debugging-Ducks",
+    live: "https://debugging-ducks.vercel.app/",
+    video: "/videos/compressed/DDuckDemo.mp4",
+    images: ["/images/compressed/DDuckHome.webp", "/images/compressed/DDuckProjects.webp", "/images/compressed/DDuckCalendar.webp", "/images/compressed/DDuckContact.webp", "/images/compressed/DDuckFigma.webp"],
+    captions: ["Demo", "Homepage", "Projects", "Calendar", "Contact", "Initial Figma Design"],
+  },
   {
     key: "coursepilot",
     title: "CoursePilot",
@@ -64,49 +126,48 @@ const PROJECTS = [
     captions: ["Demo", "Homepage", "Watchlist", "Stock View", "Figma Design"],
   },
   {
-    key: "debuggingDucks",
-    title: "Debugging Ducks",
-    subtitle: "Student Coding Club - Events, Projects & Resources",
-    tags: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Vite"],
-    color: "#4BA89A",
-    desc: "A full-stack club platform for Debugging Ducks, a student coding community I founded. Built to centralize events, showcase projects, and support student learning through real-world development practices. The project evolved from static pages into a modern React + Vite application with a strong focus on accessibility, performance, and scalability.",
+    key: "mtg-collection",
+    title: "MTG Collection",
+    subtitle: "Magic: The Gathering Collection Manager",
+    tags: ["Next.js", "TypeScript", "SQLite", "Scryfall", "Tailwind CSS"],
+    color: "#5D8A6E",
+    desc: "A local web app for managing a Magic: The Gathering collection with Scryfall-powered card search, printing lookup, quantity tracking, and decklist import, backed by SQLite and a clean Next.js UI.",
     bullets: [
-      "Founded and led a student coding club focused on hands-on, project-based learning",
-      "Architected and rebuilt the website from static HTML/CSS into a React + Vite application",
-      "Developed core features including event listings, project showcases, and resource hubs",
-      "Applied accessibility best practices (WCAG) and mobile-first responsive design",
-      "Improved performance and maintainability through modern tooling and component-based architecture",
-      "Led outreach, sponsorships, and mentoring to grow and support the club community"
+      "Built a Next.js and TypeScript web app for browsing and managing a local MTG collection",
+      "Integrated the Scryfall API for card search, printings, and image data",
+      "Stored collection and deck data locally in SQLite for fast, offline-friendly access",
+      "Supported bulk decklist imports with quantities and set-aware parsing",
+      "Added collection filtering, card detail modals, and missing-card deck comparisons",
     ],
-    github: "https://github.com/shogo24/Debugging-Ducks",
-    live: "https://debugging-ducks.vercel.app/",
-    video: "/videos/compressed/DDuckDemo.mp4",
-    images: ["/images/compressed/DDuckHome.webp", "/images/compressed/DDuckProjects.webp", "/images/compressed/DDuckCalendar.webp", "/images/compressed/DDuckContact.webp", "/images/compressed/DDuckFigma.webp"],
-    captions: ["Demo", "Homepage", "Projects", "Calendar", "Contact", "Initial Figma Design"],
+    github: "https://github.com/shogo24/Magic-The-Gathering-Collection",
+    live: null,
+    video: "/videos/compressed/mtgCollectionDemo.mp4",
+    images: ["/images/compressed/mtgCollectionHome.webp", "/images/compressed/mtgCollectionCardSearch.webp", "/images/compressed/mtgCollectionSaved.webp"],
+    captions: ["Demo", "Homepage", "Card Search", "Saved Collection"],
   },
   {
-  key: "mtg-collection",
-  title: "MTG Collection",
-  subtitle: "Magic: The Gathering Collection Manager",
-  tags: ["Next.js", "TypeScript", "SQLite", "Scryfall", "Tailwind CSS"],
-  color: "#5D8A6E",
-  desc: "A local web app for managing a Magic: The Gathering collection with Scryfall-powered card search, printing lookup, quantity tracking, and decklist import, backed by SQLite and a clean Next.js UI.",
-  bullets: [
-    "Built a Next.js and TypeScript web app for browsing and managing a local MTG collection",
-    "Integrated the Scryfall API for card search, printings, and image data",
-    "Stored collection and deck data locally in SQLite for fast, offline-friendly access",
-    "Supported bulk decklist imports with quantities and set-aware parsing",
-    "Added collection filtering, card detail modals, and missing-card deck comparisons",
-  ],
-  github: "https://github.com/shogo24/Magic-The-Gathering-Collection",
-  live: null,
-  video: "/videos/compressed/mtgCollectionDemo.mp4",
-  images: ["/images/compressed/mtgCollectionHome.webp", "/images/compressed/mtgCollectionCardSearch.webp", "/images/compressed/mtgCollectionSaved.webp"],
-  captions: ["Demo", "Homepage", "Card Search", "Saved Collection"],
-}
+    key: "smple",
+    title: "SMPLE",
+    subtitle: "Minimalist Gym Companion App",
+    tags: ["Kotlin", "Jetpack Compose", "MVVM Architecture", "Room", "Supabase"],
+    color: "#4BA89A",
+    desc: "A minimalist Android fitness tracking app designed for speed and simplicity, allowing users to quickly log workouts in a notes-style format with no required fields or complex forms.",
+    bullets: [
+      "Built a lightweight Android app using Kotlin and Jetpack Compose with MVVM architecture",
+      "Designed a frictionless workout logging experience using free-form input (e.g. \"Bench 4×12 @ 225\")",
+      "Implemented offline-first data storage using Room with automatic sync to Supabase when reconnected",
+      "Integrated Supabase Auth with Row Level Security for secure per-user data isolation",
+      "Added Push/Pull/Legs categorization to support structured workout organization",
+    ],
+    github: "https://github.com/BrayLaf/SMPLE-Kotlin",
+    live: null,
+    video: "/videos/compressed/smplDemo.mp4",
+    images: ["/images/compressed/SMPLE-landing-view.webp", "/images/compressed/SMPLE-login-view.webp", "/images/compressed/SMPLE-home-view.webp", "/images/compressed/SMPLE-workouts-view.webp", "/images/compressed/SMPLE-entries-view.webp", "/images/compressed/SMPLE-entry-view.webp", "/images/compressed/SMPLE-edit-workout-view.webp", "/images/compressed/SMPLE-profile-view.webp"],
+    captions: ["Demo", "Landing View", "Login View", "Home View", "Workouts View", "Entries View", "Entry Detail", "Edit Workout View", "Profile View"],
+  }
 ];
 
-function ProjectImageSlider({ images, video, title, captions }) {
+function ProjectImageSlider({ images, video, title, captions, imageClassName = "object-cover" }) {
   const [current, setCurrent] = useState(0);
 
   const allMedia = [
@@ -128,7 +189,7 @@ function ProjectImageSlider({ images, video, title, captions }) {
       <div className="relative w-full h-full">
         {item.type === "video"
           ? <video src={item.src} className="w-full h-full object-cover" autoPlay muted loop playsInline />
-          : <img src={item.src} alt={title} className="w-full h-full object-cover" />
+          : <img src={item.src} alt={title} className={`w-full h-full ${imageClassName}`} />
         }
         {captions?.[0] && (
           <div className="absolute bottom-2 left-0 right-0 flex justify-center z-10">
@@ -155,7 +216,7 @@ function ProjectImageSlider({ images, video, title, captions }) {
           {m.type === "video" ? (
             <video src={m.src} className="w-full h-full object-cover" autoPlay muted loop playsInline />
           ) : (
-            <img src={m.src} alt={`${title} ${i + 1}`} className="w-full h-full object-cover" />
+            <img src={m.src} alt={`${title} ${i + 1}`} className={`w-full h-full ${imageClassName}`} />
           )}
         </div>
       ))}
@@ -250,6 +311,7 @@ export default function WebDevProjects() {
                   video={p.video}
                   title={p.title}
                   captions={p.captions}
+                  imageClassName={p.key === "smple" ? "object-contain bg-black" : "object-cover"}
                 />
                 <div className="absolute bottom-0 left-0 right-0 h-0.5 z-10" style={{ backgroundColor: p.color }} />
               </div>

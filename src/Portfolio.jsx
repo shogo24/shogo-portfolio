@@ -9,8 +9,8 @@ const PHOTOS = {
   headshot:    "/images/compressed/profilePhotoTransparent.webp",
   projects: {
     RespAi:      "/images/compressed/RespAiHome.webp",
-    coursePilot: "/images/compressed/pilotCourses.webp",
-    nest:        "/images/compressed/nestHomepage.webp",
+    kaika:       "/images/compressed/KaikaLandingPage.webp",
+    cardPricy:   "/images/compressed/CardPricyHomePage.webp",
   },
 };
 
@@ -27,6 +27,8 @@ const SKILLS = [
   { name: "React",        tooltip: "A JavaScript library for building user interfaces" },
   { name: "Next.js",      tooltip: "A React framework for server-side rendering and static sites" },
   { name: "React Router", tooltip: "Client-side routing for React applications" },
+  { name: "React Flow",   tooltip: "Library for building interactive node-based editors and graphs" },
+  { name: "Zustand",      tooltip: "Lightweight state management for React apps" },
   { name: "Angular",      tooltip: "Framework for building dynamic web applications" },
   { name: "Tailwind CSS", tooltip: "Utility-first CSS framework for rapid UI development" },
   { name: "Figma",        tooltip: "UI/UX design and prototyping tool" },
@@ -63,6 +65,12 @@ const SKILLS = [
   { name: "Unreal Engine",tooltip: "High-end game engine for 3D games" },
   { name: "Blueprints",   tooltip: "Unreal Engine visual scripting system" },
   { name: "Game Design",  tooltip: "Creating game mechanics and user experience" },
+
+  // Mobile
+  { name: "Kotlin",       tooltip: "Programming language for Android development" },
+  { name: "Jetpack Compose", tooltip: "Modern Android UI toolkit" },
+  { name: "MVVM Architecture", tooltip: "App architecture pattern for separating UI and state" },
+  { name: "Room",         tooltip: "Android persistence library for local data storage" },
 ];
 
 const PROJECTS = [
@@ -75,19 +83,19 @@ const PROJECTS = [
     link: "/webdev",
   },
   {
-    key: "coursePilot",
-    title: "CoursePilot",
-    tags: ["React", "Node.js", "Express", "SQL Server", "Azure"],
+    key: "kaika",
+    title: "Kaika",
+    tags: ["React", "React Flow", "Zustand", "Dagre"],
     color: "#2D7D9A",
-    desc: "A full-stack course management platform built with React, Express, and SQL Server on Azure, featuring user authentication, course enrollment, and real-time data handling through a scalable REST API.",
+    desc: "A single-page interactive knowledge-graph proof of concept that visualizes information as a living network of interconnected nodes representing people, ideas, decisions, and memories.",
     link: "/webdev",
   },
   {
-    key: "nest",
-    title: "Nest Trading App",
-    tags: ["C#", ".NET", "Supabase", "Figma"],
+    key: "cardPricy",
+    title: "Card Pricy",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Zustand", "Scryfall API"],
     color: "#5D8A6E",
-    desc: "A .NET-based trading application with Supabase-powered authentication and storage, featuring a custom-designed interface from Figma and real-time data handling for managing trades and user activity.",
+    desc: "A modern Magic: The Gathering card pricing app built to make searching, comparing, and organizing cards fast and simple, with live Scryfall data, autocomplete, bulk lookup, and a clean list workflow for tracking cards by condition, finish, and custom pricing.",
     link: "/webdev",
   },
 ];
